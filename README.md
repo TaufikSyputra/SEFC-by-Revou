@@ -2,6 +2,7 @@
 Basic HTML, CSS, and Javascript
 
 akses belajar
-Link 1: https://www.w3schools.com/html/html_intro.asp
-Link 2: https://www.revou.co/kosakata
+1: https://www.w3schools.com/html/html_intro.asp
+2: https://www.revou.co/kosakata
+3: Channel Yt RevoU https://www.youtube.com/@revoudotcom
 

@@ -6,25 +6,81 @@
     <body>
         <h1>berikut cara membuat tabel sederhana</h1>
         <table border="1" cellpadding="10" cellspacing="0">
+            <caption>Keuangan di 2025</caption>
             <tr>
-                <th>Nama</th>
-                <th>Lokasi</th>
-                <th>Email</th>
+                <th>Nama Bulan</th>
+                <th>Penerimaan</th>
+                <th>Pengeluaran</th>
+            </tr>
+           <tbody>
+            <tr>
+                <td>Januari</td>
+                <td>Rp 0, 00-</td>
+                <td>Rp 300, 00-</td>
+            </tr>
+
+            <tr>
+                <td>Februari</td>
+                <td>Rp 0, 00-</td>
+                <td>Rp 400.000, 00-</td>
             </tr>
             <tr>
-                <td>Taufik</td>
-                <td>Jakarta</td>
-                <td>gugugaga@gmail.com</td>
+                <td>Maret</td>
+                <td>Rp 200.000, 00-</td>
+                <td>Rp 500.000, 00-</td>
             </tr>
+            <tr>
+                <td>April</td>
+                <td>Rp 300.000, 00-</td>
+                <td>Rp 600.000, 00-</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>Jumlah</td>
+                <td>Rp 500.000, 00-</td>
+                <td>Rp 1.500.000, 00-</td>
+            </tr>
+            </tfoot>
         </table>
 
-        <p>mudah tidak?</p>
+        <b><p> tambahkan daftar baru</p></b>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>
+                    <select>
+                        <option>Januari</option>
+                        <option>Februari</option>
+                        <option>Maret</option>
+                        <option>April</option>
+                        <option>Mei</option>
+                        <option>Juni</option>
+                        <option>Juli</option>
+                        <option>Agustus</option>
+                        <option>September</option>
+                        <option>Oktober</option>
+                        <option>November</option>
+                        <option>Desember</option>
+                        <option selected>Januari</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" placeholder="Penerimaan"/>
+                </td>
+                <td>
+                    <input type="number" placeholder="Pengeluaran"/>
+                </td>
+                <td>
+                    <button type = "submit">tambahkan</button>
+                </td>
+            </tr>   
+        </table>
 
         <!--coba masukin gambar-->
-        <img src="https://cdn.pixabay.com/photo/2015/09/18/19/03/cat-557202_1280.jpg" alt="kucing" width="200" height="200">
+        <img src="C:\Users\TAUFIKS\SEFC1_byRevou\training1\kucing.jpg" alt="kucing" width="200" height="200">
         <p>ini adalah gambar kucing</p>
 
-        <!--Coba bikini form-->
+        <h1>Membuat form</h1>
         <form action="https://www.google.com/search" method="get">
             <label for="name"> Nama : </label>
             <input id="name" type="text"/>
@@ -36,9 +92,8 @@
                 <option>Merah</option>
                 <option>Kuning</option>
                 <option selected>Hijau</option>
+                </option>
             </select>
-
-
         </form>
     </body>
 </html>
